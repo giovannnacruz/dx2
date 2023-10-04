@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="emoji.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bigshot+One&family=Black+Ops+One&family=Cinzel:wght@400;500;600;700;800;900&family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<div class="titulo">
+    <p>DESAFIO <br>DX2</p>
+</div>
+
+<center><div class="des1">
+<a href="desafio1.html"><center><button>DESAFIO</button></center></a>
+</div>
+
+<p></p>
+
+<center><a href="desafio2.html"><center><button>DESAFIO</button></center></a></center>
+<center><p style="padding: 20px;"></p></center>
+
+
+<center><p style="color: aliceblue;">INTEGRANTES</p></center>
+<p style="color: aliceblue;">(advinhe a senha, ta bem fácil)</p>
+
+<input type="password" id="pwd">
+<input type="checkbox" id="chk"> 
+
+
+<script>
+const pwd = document.getElementById("pwd");
+const chk = document.getElementById("chk");
+
+chk.onchange = function(e) {
+    pwd.type = chk.Checked ? "text" : "integrantes";
+};
+</script>
+<p></p>
+<center><button style="height:50px; width: 300px; background-color: red; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" onclick="nomes()">APERTE</button></center>
+<h1 style="color: aliceblue;"></h1>
+
+
+</body>
+</html>
