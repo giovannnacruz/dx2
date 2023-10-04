@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+.a{
+    font-size: 30px;
+}
+
+.b{
+    margin-left: 500px;
+}
+
+button{
+    font-size: 30px; 
+    background-color: white; 
+    color: red;
+    width: 150px;
+    height: 100px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 2s;
+}
+
+button:hover{
+    width: 200px;
+    height: 80px ;
+    transform: rotate(540deg); /* Equal to rotateZ(45deg) */
+    border: solid 20px red;
+    transition: 2s;
+}
+
+
+@keyframes girar {
+    0% {
+      transform: rotate(0deg)
+    }
+    50% {
+      transform: rotate(45deg)
+    }
+    100%{
+      transform: rotate(0deg)
+    }
+}
+
